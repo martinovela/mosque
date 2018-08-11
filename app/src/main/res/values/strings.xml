@@ -3,4 +3,5 @@
     <string name="title_activity_maps">mosque</string>
     <string name="google_maps_key">AIzaSyCFuM-ZAlpCv4jvCkX8FmNd5KUicfHs3js</string>
     <string name="title_activity_main">mosque</string>
+    <string name="title_activity_list_mosque">listMosqueActivity</string>
 </resources>

@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
-                Intent in = new Intent(MainActivity.this, MapsActivity.class);
+                Intent in = new Intent(MainActivity.this, listMosqueActivity.class);
                 startActivity(in);
                 finish();
 

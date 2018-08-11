@@ -33,7 +33,7 @@ public class listMosqueActivity extends AppCompatActivity {
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                         String cities = String.valueOf(parent.getItemAtPosition(position));
                         Toast.makeText(listMosqueActivity.this, cities , Toast.LENGTH_LONG).show();
-//                        startActivity(new Intent(listMosqueActivity.this, MapsActivity.class));
+                        startActivity(new Intent(listMosqueActivity.this, MapsActivity.class));
                     }
                 });
     }
